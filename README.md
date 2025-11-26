@@ -44,6 +44,11 @@ output_path = './output'
 pipline  = ReactionPipeline(input_path, output_path)
 pipline.extract()
 ```
+#### Command Line Usage
+```python
+python main.py --input_path <input_path> --output_path <output_path>
+```
+
 > 
 
 ## Issues?
